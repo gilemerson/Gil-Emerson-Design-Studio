@@ -1,0 +1,20 @@
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\csc.exe
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\vbc.exe
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\VBCSCompiler.exe
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\GE Design Studio.dll.config
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\GE Design Studio.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\GE Design Studio.pdb
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\obj\Debug\GE Design Studio.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\obj\Debug\GE Design Studio.dll
+C:\Users\Owner\Desktop\GitHub\Gil-Emerson-Design-Studio\GE Design Studio\GE Design Studio\obj\Debug\GE Design Studio.pdb
