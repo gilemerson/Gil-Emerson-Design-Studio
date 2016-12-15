@@ -1,5 +1,4 @@
-﻿
-/* -------------------------------- 
+﻿/* -------------------------------- 
 
 Primary style
 
@@ -33,9 +32,8 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  max-width: 10px;
   width: 90%;
-  max-width: 1000px;
+  max-width: 768px;
   margin: 0 auto;
 }
 .cd-container:after {
@@ -55,9 +53,10 @@ html, body {
 
 .cd-header {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 0;
   background: rgba(2, 23, 37, 0.95);
+  background-color: rgba(2, 23, 37, 0.95);
   height: 50px;
   width: 100%;
   z-index: 3;
@@ -70,6 +69,7 @@ html, body {
     height: 80px;
     background: transparent;
     box-shadow: none;
+    background-color: rgba(2, 23, 37, 0.95);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -112,8 +112,7 @@ html, body {
 .cd-logo {
   display: block;
   position: absolute;
-  margin-left: 140px;
-  top: 47%;
+  top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -124,7 +123,6 @@ html, body {
 }
 .cd-logo img {
   display: block;
-   
 }
 @media only screen and (min-width: 768px) {
   .cd-logo {
@@ -134,7 +132,6 @@ html, body {
 
 .cd-secondary-nav {
   position: absolute;
-  margin-right: 140px;
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -164,7 +161,6 @@ html, body {
 
 .cd-primary-nav-trigger {
   position: absolute;
-  margin-right: 140px;
   right: 0;
   top: 0;
   height: 100%;
@@ -276,6 +272,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: rgba(2, 23, 37, 0.96);
+  
   z-index: 2;
   text-align: center;
   padding: 50px 0;
@@ -304,6 +301,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   margin: .2em 0;
   text-transform: capitalize;
+  
 }
 .cd-primary-nav a {
   display: inline-block;
@@ -383,14 +381,38 @@ html, body {
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .cd-intro h1 {
-position: absolute;
-    left: 80px;
-    top: 380px;
-
+  position: absolute;
+  width: 90%;
+  max-width: 1170px;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
 }
-
+@media only screen and (min-width: 768px) {
+  .cd-intro h1 {
+    font-size: 30px;
+    font-size: 1.875rem;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-intro {
+    height: 700px;
+  }
+}
 
 .cd-main-content {
   position: relative;
@@ -400,6 +422,17 @@ position: absolute;
   line-height: 1.6;
   margin: 2em 0;
 }
+@media only screen and (min-width: 1170px) {
+  .cd-main-content p {
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+
+
+
+
+
 
 
 
