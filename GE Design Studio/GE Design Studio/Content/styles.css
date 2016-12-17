@@ -15,6 +15,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: rgba(2, 23, 37, 0.7);
   background-color: white;
+  
 }
 body.overflow-hidden {
   /* when primary navigation is visible, the content in the background won't scroll */
@@ -70,6 +71,7 @@ html, body {
     height: 80px;
     background: transparent;
     box-shadow: none;
+    background-color: rgba(2, 23, 37, 0.95);
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -110,6 +112,7 @@ html, body {
 }
 
 .cd-logo {
+   
   display: block;
   position: absolute;
   margin-left: 140px;
@@ -193,6 +196,7 @@ html, body {
   transform: translateX(-50%) translateY(-50%);
   width: 18px;
   height: 2px;
+
   background-color: white;
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
@@ -377,6 +381,7 @@ html, body {
 }
 
 .cd-intro {
+  margin-top: 80px;
   position: relative;
   height: 100%;
   background: url("../img/AdobeStock_125589837.jpeg") no-repeat center center;
