@@ -2,14 +2,12 @@
 
 .footer-distributed{
 	background-color: rgba(2, 23, 37, 0.96);
-
+    font-family: "Source Sans Pro", sans-serif;
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
-
 	padding: 55px 50px;
-	margin-top: 80px;
+	
 }
 
 .footer-distributed .footer-left,
@@ -29,7 +27,7 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	 font-family: 'Times New Roman', Times, serif;
 	margin: 0;
 }
 
@@ -43,6 +41,8 @@
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
 }
 
 .footer-distributed .footer-links a{
@@ -50,6 +50,8 @@
 	line-height: 1.8;
 	text-decoration: none;
 	color:  inherit;
+      font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
 }
 
 .footer-distributed .footer-company-name{
@@ -57,12 +59,15 @@
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
+     
 }
 
 /* Footer Center */
 
 .footer-distributed .footer-center{
 	width: 35%;
+      font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
 }
 
 .footer-distributed .footer-center i{
@@ -115,6 +120,8 @@ background-color: rgba(2, 23, 37, 0.96);
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
 }
 
 .footer-distributed .footer-company-about span{
