@@ -71,6 +71,8 @@
     <Content Include="help.html" />
     <Content Include="img\AdobeStock_125589837.jpeg" />
     <Content Include="img\AdobeStock_61433825 [Converted].jpg" />
+    <Content Include="img\CanadaIcon.png" />
+    <Content Include="img\marianne.jpg" />
     <Content Include="img\projectspage\DestroyerProjectPage.png" />
     <Content Include="img\projectspage\EMGProjectPage.png" />
     <Content Include="img\projectspage\phpFullSite.png" />
