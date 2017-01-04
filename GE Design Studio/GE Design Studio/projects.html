@@ -94,7 +94,382 @@
     <br />
     <br />
     <br />
+      <br />
+    <br />
+    <style>
+        /*Project Page Css*/
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+/* this is just for the demo */
 
+.panel-heading:hover {
+    cursor:pointer;
+}
+.panel-heading {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+.side-tab:hover {
+        cursor: pointer;
+    }
+    .panel.panel-default {
+        border: none;
+        box-shadow: none !important;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        
+    }
+    .panel-heading {
+        border: none;
+        background-color: #eee;
+    
+    }
+    .panel-body {
+        background-color: #f5f5f5;
+    }
+    .panel-title {
+        font-weight: 400;
+        color: $white;
+    }
+
+/*----------------------------------
+    Macbook pro mockup from:
+    http://jaredhardy.com/minimal-devices/
+    
+----------------------------------*/
+
+.md-macbook-pro {
+  display: block;
+  width: 55.3125em;
+  height: 31.875em;
+  font-size: 13px;
+  margin: 0 auto;
+
+  @media (max-width:1199px){
+    font-size: 11px;
+  }
+  @media (max-width:1024px){
+    font-size: 10px;
+  }
+
+  @media (max-width:767px){
+    font-size: 7px;
+  }
+
+  @media (max-width:320px){
+    font-size: 5px;
+  }
+
+}
+.md-macbook-pro .md-lid {
+  width: 45em;
+  height: 30.625em;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 1.875em;
+  border: solid 0.1875em #cdced1;
+  background: #131313;
+}
+.md-macbook-pro .md-camera {
+  width: 0.375em;
+  height: 0.375em;
+  margin: 0 auto;
+  position: relative;
+  top: 1.0625em;
+  background: #000;
+  border-radius: 100%;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
+}
+.md-macbook-pro .md-camera:after {
+  content: "";
+  display: block;
+  width: 0.125em;
+  height: 0.125em;
+  position: absolute;
+  left: 0.125em;
+  top: 0.0625em;
+  background: #353542;
+  border-radius: 100%;
+}
+.md-macbook-pro .md-screen {
+  width: 42.25em;
+  height: 26.375em;
+  margin: 0 auto;
+  position: relative;
+  top: 2.0625em;
+  background: #fff;
+  overflow: hidden;
+}
+.md-macbook-pro .md-screen img {
+  width: 100%;
+}
+.md-macbook-pro .md-base {
+  width: 100%;
+  height: 0.9375em;
+  position: relative;
+  top: -0.75em;
+  background: #c6c7ca;
+}
+.md-macbook-pro .md-base:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  margin: 0 auto;
+  position: relative;
+  bottom: -0.1875em;
+  background: #b9babe;
+  border-radius: 0 0 1.25em 1.25em;
+}
+.md-macbook-pro .md-base:before {
+  content: "";
+  display: block;
+  width: 7.6875em;
+  height: 0.625em;
+  margin: 0 auto;
+  position: relative;
+  background: #a6a8ad;
+  border-radius: 0 0 0.625em 0.625em;
+}
+.md-macbook-pro.md-glare .md-lid:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.25em 0 0;
+  background: -webkit-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -moz-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: -o-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+  background: linear-gradient(53deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
+}
+
+
+/*//////////////////////////////////////////////////////*/
+    </style>
+     <style>
+         .link{
+             font-size: 15px;
+             color:black;
+         }
+         </style>
+
+    <!--Main Page Content-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<!-- begin panel group -->
+			<div id="accordion" aria-multiselectable="true" class="panel-group" role="tablist">
+				<!-- panel 1 -->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab1" data-toggle="tab" role="tab">
+					<div id="headingOne" aria-controls="collapseOne" aria-expanded="true" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseOne" role="tab">
+						<h4 class="panel-title">Emerson Marketing Group Inc.</h4>
+					</div>
+					</span>
+					<div id="collapseOne" aria-labelledby="headingOne" class="panel-collapse collapse in" role="tabpanel">
+						<div class="panel-body">
+							<!-- Tab content goes here -->Canada's foremost sales 
+							organization specializing in infant and toddler products. 
+							We service all market channels from mass merchant and 
+							department stores to pharmacies, supermarkets and independent 
+							special retailers.<br /><br />
+                             <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.emersonmarketinggroup.ca">Emerson Marketing Group</a>
+						</div>
+					</div>
+				</div>
+				<!-- End panel 1 -->
+				
+				<!--  panel 2 -->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab2" data-toggle="tab" role="tab">
+					<div id="headingTwo" aria-controls="collapseTwo" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo" role="tab">
+						<h4 class="panel-title">Star Wars Slot Machine</h4>
+					</div>
+					</span>
+					<div id="collapseTwo" aria-labelledby="headingTwo" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body">
+							<!-- tab content goes here -->This is a Star Wars base 
+							themed slot machine that I have created.<br />
+							Please Enjoy.<br />
+                            <br />
+                           <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/projects/four/index.html">Star Wars Slot Machine</a>
+
+							 </div>
+					</div>
+				</div>
+				<!-- End panel 2 -->
+				<!--Panel 3-->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab3" data-toggle="tab" role="tab">
+					<div id="headingThree" aria-controls="collapseThree" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" role="tab">
+						<h4 class="panel-title collapsed">Reaction Time</h4>
+					</div>
+					</span>
+					<div id="collapseThree" aria-labelledby="headingThree" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body">
+							<!-- Tab content goes here -->This is a game that I 
+							have created that will test your reaction time. (mobile 
+							friendly)<br />
+							Enjoy!<br /><br />
+                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/projects/one/index.html">Reaction Time</a>
+							 </div>
+					</div>
+				</div>
+				<!--End Panel 3-->
+				<!--Panel 4-->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab4" data-toggle="tab" role="tab">
+					<div id="headingFour" aria-controls="collapseFour" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseFour" role="tab">
+						<h4 class="panel-title collapsed">Destroyer Game</h4>
+					</div>
+					</span>
+					<div id="collapseFour" aria-labelledby="headingF" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body">
+							<!-- Tab content goes here -->Destroyer is a version 
+							of the classic galaxy wars game. You must stay alive 
+							till you complete the mission. <br />
+							Enjoy!<br /><br />
+							<i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://gilemerson.ca/projects/two/index.html">Destroyer</a>
+                            </div>
+					</div>
+				</div>
+				<!--End Panel 4-->
+				
+				
+				<!--Panel 5-->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab5" data-toggle="tab" role="tab">
+					<div id="headingFive" aria-controls="collapseFive" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseFive" role="tab">
+						<h4 class="panel-title collapsed">..--..</h4>
+					</div>
+					</span>
+					<div id="collapseFive" aria-labelledby="headingFive" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body">
+							<!-- Tab content goes here -->This is a website application 
+							created using php. I have created this to use as a log 
+							book for work days, time, pay etc..<br />
+							<a href="http://www.gilemerson.ca/Comp1006/lesson05/login.php" title="Gil Emerson PHP Site">
+							PHP Login Functionality</a> </div>
+					</div>
+				</div>
+				<!--End Panel 5-->
+				<!--Panel 6-->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab6" data-toggle="tab" role="tab">
+					<div id="headingSix" aria-controls="collapseSix" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseSix" role="tab">
+						<h4 class="panel-title collapsed">Php Website(W/Login/Validation)</h4>
+					</div>
+					</span>
+					<div id="collapseSix" aria-labelledby="headingSix" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body">
+							<!-- Tab content goes here -->I have created this website 
+							using php and mysql while also using some html &amp; css 
+							for the markup.<br />
+							Users have the ability to keep a log of their activities 
+							which are saved in a database. The user can also manipulate 
+							the database, change any of the content or add and new 
+							content. Please register and Enjoy! <br /><br />
+                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://gilemerson.ca/projects/six/register.php">Website w/ Login</a>
+
+							</div>
+					</div>
+				</div>
+				<!--End Panel 6-->
+				
+				
+				<!--Panel 7-->
+				<div class="panel panel-default">
+					<!--wrap panel heading in span to trigger image change as well as collapse -->
+					<span aria-expanded="false" class="side-tab" data-target="#tab7" data-toggle="tab" role="tab">
+					<div id="headingSeven" aria-controls="collapseSeven" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseSeven" role="tab">
+						<h4 class="panel-title collapsed">Wikipedia Review</h4>
+					</div>
+					</span>
+					<div id="collapseSeven" aria-labelledby="headingSeven" class="panel-collapse collapse" role="tabpanel">
+						<div class="panel-body">
+							<!-- Tab content goes here -->Built with AngularJS frontend 
+							and NodeJS backend. This application uses wikipedia 
+							API to find relevant articles depending on the search 
+							criteria.<br /><br />
+                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/projects/nine/default.html">Wikipedia Viewer</a>
+
+						</div>
+					</div>
+				</div>
+				<!--End Panel 7-->
+			
+				
+		
+				</div>
+			<!-- / panel-group --></div>
+		<!-- /col-md-4 -->
+		<div class="col-md-8">
+			<!-- begin macbook pro mockup -->
+			<div class="md-macbook-pro md-glare">
+				<div class="md-lid">
+					<div class="md-camera">
+					</div>
+					<div class="md-screen">
+						<!-- content goes here -->
+						<div class="tab-featured-image">
+							<div class="tab-content">
+							
+								<div id="tab1" class="tab-pane  in active">
+									<img alt="tab1" class="img img-responsive" src="img/projectspage/EMGProjectPage.png">
+								</div>									
+								
+								<div id="tab2" class="tab-pane">
+									<img alt="tab2" class="img img-responsive" src="img/projectspage/StarWarsProjectPage.png">
+								</div>
+								
+								<div id="tab3" class="tab-pane">
+									<img alt="tab3" class="img img-responsive" src="img/projectspage/ReactionTimeProjectPage.png">
+								</div>
+								
+								<div id="tab4" class="tab-pane">
+									<img alt="tab4" class="img img-responsive" src="img/projectspage/DestroyerProjectPage.png">
+								</div>
+								
+								<div id="tab5" class="tab-pane ">
+									<img alt="tab5" class="img img-responsive" src="Assets/images/aspGame.png">
+								</div>
+								
+								<div id="tab6" class="tab-pane ">
+									<img alt="tab6" class="img img-responsive" src="img/projectspage/phpFullSite.png"> 
+								</div>
+								
+								<div id="tab7" class="tab-pane ">
+									<img alt="tab7" class="img img-responsive" src="img/projectspage/wiki.png">
+								</div>
+														
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="md-base">
+				</div>
+			</div>
+			<!-- end macbook pro mockup 1--></div>
+		<!-- / .col-md-8 --></div>
+	<!--/ .row -->
+	<!-- end sidetab container -->
+	<!--End Main Page Content--></div>
     
 
     <!-- Footer -->
@@ -147,9 +522,7 @@
                         ·                      
 
                         <a href="help.html">Help</a>
-                        ·  
-
-                        <a href="testimonials.html">Testimonials</a>
+                    
                         ·		
                        
                         <a href="privacy.html">Privacy</a>
