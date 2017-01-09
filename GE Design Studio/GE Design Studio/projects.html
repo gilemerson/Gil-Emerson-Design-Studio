@@ -19,6 +19,10 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/terms-privacy.css" rel="stylesheet" />
+
+    <!--Popup Section-->
+    <link href="Content/popup.css" rel="stylesheet" />
+
     <!--, -->
     <link href="Content/main.css" rel="stylesheet" />
 
@@ -34,6 +38,8 @@
 
     <!-- Modernize -->
     <script src="Scripts/modernizr.js"></script>
+
+  
 
     <!-- FAVICON-->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -263,6 +269,43 @@ body {
              color:black;
          }
          </style>
+    <br />
+    <br />
+
+    <!--Popup Java Script-->
+    <script>
+      // you can use just jquery for this
+      $(document).ready(function(){
+         $('#overlay-back').fadeIn(500,function(){
+            $('#popup').show();
+         });
+
+         $(".close-image").on('click', function() {
+            $('#popup').hide();
+            $('#overlay-back').fadeOut(500);
+         });
+      });
+   </script>
+    <div class="container-fluid">
+	<div id="overlay-back">
+	</div>
+	<div id="popup">
+		<img class="close-image" src="img/Deep_Close.png" />
+          <div class="jumbotron">
+        <h1>User Notice</h1>
+        <p class="lead">This page is under maintenance.<hr>
+             Please view this page on a desktop or tablet for optimal viewing experience. <br />
+            <br />
+            Thanks for your patience.
+        </p>
+              <br />
+        <p><a class="btn btn-lg btn-success" href="contact.html" role="button">Sign up today</a></p>
+      </div>	
+	</div>
+</div>    <!--End Popup -->
+
+
+
 
     <!--Main Page Content-->
 <div class="container">
@@ -356,16 +399,20 @@ body {
 					<!--wrap panel heading in span to trigger image change as well as collapse -->
 					<span aria-expanded="false" class="side-tab" data-target="#tab5" data-toggle="tab" role="tab">
 					<div id="headingFive" aria-controls="collapseFive" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseFive" role="tab">
-						<h4 class="panel-title collapsed">..--..</h4>
+						<h4 class="panel-title collapsed">Functional Login Website</h4>
 					</div>
 					</span>
 					<div id="collapseFive" aria-labelledby="headingFive" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-							<!-- Tab content goes here -->This is a website application 
-							created using php. I have created this to use as a log 
-							book for work days, time, pay etc..<br />
-							<a href="http://www.gilemerson.ca/Comp1006/lesson05/login.php" title="Gil Emerson PHP Site">
-							PHP Login Functionality</a> </div>
+							<!-- Tab content goes here -->I have created this website 
+							using php and mysql while also using some html &amp; css 
+							for the markup.<br />
+							Users have the ability to keep a log of their activities 
+							which are saved in a database. The user can also manipulate 
+							the database, change any of the content or add and new 
+							content. Please register and Enjoy!<br /><br />
+							<i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/Comp1006/lesson05/login.php">Functional Login Website</a>
+							 </div>
 					</div>
 				</div>
 				<!--End Panel 5-->
@@ -374,19 +421,13 @@ body {
 					<!--wrap panel heading in span to trigger image change as well as collapse -->
 					<span aria-expanded="false" class="side-tab" data-target="#tab6" data-toggle="tab" role="tab">
 					<div id="headingSix" aria-controls="collapseSix" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseSix" role="tab">
-						<h4 class="panel-title collapsed">Php Website(W/Login/Validation)</h4>
+						<h4 class="panel-title collapsed">WordPress Example</h4>
 					</div>
 					</span>
 					<div id="collapseSix" aria-labelledby="headingSix" class="panel-collapse collapse" role="tabpanel">
 						<div class="panel-body">
-							<!-- Tab content goes here -->I have created this website 
-							using php and mysql while also using some html &amp; css 
-							for the markup.<br />
-							Users have the ability to keep a log of their activities 
-							which are saved in a database. The user can also manipulate 
-							the database, change any of the content or add and new 
-							content. Please register and Enjoy! <br /><br />
-                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://gilemerson.ca/projects/six/register.php">Website w/ Login</a>
+							Here I have vreated a simple WordPress templete to showcase the effects and designs WordPress has to offer. <br /><br />
+                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="https://gilemerson.wordpress.com/home/">WordPress Example</a>
 
 							</div>
 					</div>
@@ -448,11 +489,11 @@ body {
 								</div>
 								
 								<div id="tab5" class="tab-pane ">
-									<img alt="tab5" class="img img-responsive" src="Assets/images/aspGame.png">
+									<img alt="tab5" class="img img-responsive" src="img/projectspage/loginwebsite.png">
 								</div>
 								
 								<div id="tab6" class="tab-pane ">
-									<img alt="tab6" class="img img-responsive" src="img/projectspage/phpFullSite.png"> 
+									<img alt="tab6" class="img img-responsive" src="img/projectspage/wordpresssite.png"> 
 								</div>
 								
 								<div id="tab7" class="tab-pane ">
@@ -494,6 +535,8 @@ body {
             border-color: #1a63bd;
         }
     </style>
+    <br />
+    <br />
 
   <nav class="navbar navbar-default">
         <div class="container-fluid">

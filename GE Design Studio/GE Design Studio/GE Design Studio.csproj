@@ -66,19 +66,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\popup.css" />
     <Content Include="errorpage.html" />
     <Content Include="contact-form-thank-you.html" />
     <Content Include="help.html" />
     <Content Include="img\AdobeStock_125589837.jpeg" />
     <Content Include="img\AdobeStock_61433825 [Converted].jpg" />
     <Content Include="img\CanadaIcon.png" />
+    <Content Include="img\Deep_Close.png" />
     <Content Include="img\marianne.jpg" />
     <Content Include="img\projectspage\DestroyerProjectPage.png" />
     <Content Include="img\projectspage\EMGProjectPage.png" />
+    <Content Include="img\projectspage\loginwebsite.png" />
     <Content Include="img\projectspage\phpFullSite.png" />
     <Content Include="img\projectspage\ReactionTimeProjectPage.png" />
     <Content Include="img\projectspage\StarWarsProjectPage.png" />
     <Content Include="img\projectspage\wiki.png" />
+    <Content Include="img\projectspage\wordpresssite.png" />
     <Content Include="packages.config" />
     <Content Include="projects.html" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
