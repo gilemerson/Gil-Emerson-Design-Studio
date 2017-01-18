@@ -20,11 +20,11 @@
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="Content/terms-privacy.css" rel="stylesheet" />
 
-    <!--Popup Section-->
-    <link href="Content/popup.css" rel="stylesheet" />
-
     <!--, -->
     <link href="Content/main.css" rel="stylesheet" />
+
+    <!--Projects Section-->
+    <link href="Content/freelancer.css" rel="stylesheet" />
 
     <!--Font Awesome CDN-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -100,421 +100,543 @@
     <br />
     <br />
     <br />
-    <br />
-      <br />
-    <br />
     <style>
-        /*Project Page Css*/
-body {
-    font-family: 'Times New Roman', Times, serif
-}
-/* this is just for the demo */
-
-.panel-heading:hover {
-    cursor:pointer;
-}
-.panel-heading {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;    
-}
-
-.side-tab:hover {
-        cursor: pointer;
-    }
-    .panel.panel-default {
-        border: none;
-        box-shadow: none !important;
-        border-bottom-right-radius: 0px;
-        border-bottom-left-radius: 0px;
-        
-    }
-    .panel-heading {
-        border: none;
-        background-color: #eee;
-    
-    }
-    .panel-body {
-        background-color: #f5f5f5;
-    }
-    .panel-title {
-        font-weight: 400;
-        color: $white;
-    }
-
-/*----------------------------------
-    Macbook pro mockup from:
-    http://jaredhardy.com/minimal-devices/
-    
-----------------------------------*/
-
-.md-macbook-pro {
-  display: block;
-  width: 55.3125em;
-  height: 31.875em;
-  font-size: 13px;
-  margin: 0 auto;
-
-  @media (max-width:1199px){
-    font-size: 11px;
-  }
-  @media (max-width:1024px){
-    font-size: 10px;
-  }
-
-  @media (max-width:767px){
-    font-size: 7px;
-  }
-
-  @media (max-width:320px){
-    font-size: 5px;
-  }
-
-}
-.md-macbook-pro .md-lid {
-  width: 45em;
-  height: 30.625em;
-  overflow: hidden;
-  margin: 0 auto;
-  position: relative;
-  border-radius: 1.875em;
-  border: solid 0.1875em #cdced1;
-  background: #131313;
-}
-.md-macbook-pro .md-camera {
-  width: 0.375em;
-  height: 0.375em;
-  margin: 0 auto;
-  position: relative;
-  top: 1.0625em;
-  background: #000;
-  border-radius: 100%;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.25);
-}
-.md-macbook-pro .md-camera:after {
-  content: "";
-  display: block;
-  width: 0.125em;
-  height: 0.125em;
-  position: absolute;
-  left: 0.125em;
-  top: 0.0625em;
-  background: #353542;
-  border-radius: 100%;
-}
-.md-macbook-pro .md-screen {
-  width: 42.25em;
-  height: 26.375em;
-  margin: 0 auto;
-  position: relative;
-  top: 2.0625em;
-  background: #fff;
-  overflow: hidden;
-}
-.md-macbook-pro .md-screen img {
-  width: 100%;
-}
-.md-macbook-pro .md-base {
-  width: 100%;
-  height: 0.9375em;
-  position: relative;
-  top: -0.75em;
-  background: #c6c7ca;
-}
-.md-macbook-pro .md-base:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 0.5em;
-  margin: 0 auto;
-  position: relative;
-  bottom: -0.1875em;
-  background: #b9babe;
-  border-radius: 0 0 1.25em 1.25em;
-}
-.md-macbook-pro .md-base:before {
-  content: "";
-  display: block;
-  width: 7.6875em;
-  height: 0.625em;
-  margin: 0 auto;
-  position: relative;
-  background: #a6a8ad;
-  border-radius: 0 0 0.625em 0.625em;
-}
-.md-macbook-pro.md-glare .md-lid:after {
-  content: "";
-  display: block;
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 0 1.25em 0 0;
-  background: -webkit-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: -moz-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: -o-linear-gradient(37deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-  background: linear-gradient(53deg, rgba(255, 255, 255, 0) 50%, rgba(247, 248, 240, 0.025) 50%, rgba(250, 245, 252, 0.08));
-}
-
-
-/*//////////////////////////////////////////////////////*/
+       
     </style>
      <style>
          .link{
              font-size: 15px;
-             color:black;
+             color: cornflowerblue;
+             text-decoration: none !important;
          }
+
+         @media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #428bca;
+  -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
          </style>
-    <br />
-    <br />
 
-    <!--Popup Java Script-->
-    <script>
-      // you can use just jquery for this
-      $(document).ready(function(){
-         $('#overlay-back').fadeIn(500,function(){
-            $('#popup').show();
-         });
+    <div class="container">
+        <div class="blog-header">
+            <h1 class="blog-title">Gil Emerson Design Studio</h1>
+            <p class="lead blog-description">Our Story</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 blog-main">
+                <div class="blog-post">
+                    <p>Gil Emerson Design Studio was founded in 2015. With a focus on developing easy to manage, consumer friendly websites, using the latest technologies and design trends.</p>
+                    <hr>
+                </div>
 
-         $(".close-image").on('click', function() {
-            $('#popup').hide();
-            $('#overlay-back').fadeOut(500);
-         });
-      });
-   </script>
-    <div class="container-fluid">
-	<div id="overlay-back">
-	</div>
-	<div id="popup">
-		<img class="close-image" src="img/Deep_Close.png" />
-          <div class="jumbotron">
-        <h1>User Notice</h1>
-        <p class="lead">This page is under maintenance.<hr>
-             Please view this page on a desktop or tablet for optimal viewing experience. <br />
-            <br />
-            Thanks for your patience.
-        </p>
-              <br />
-              <div class="close-image">
-        <p><a class="btn btn-lg btn-success" role="button">Continue</a></p>
-
-              </div>
-      </div>	
-	</div>
-</div>    <!--End Popup -->
+            </div>
+        </div>
+    </div>
 
 
-
-
-    <!--Main Page Content-->
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<!-- begin panel group -->
-			<div id="accordion" aria-multiselectable="true" class="panel-group" role="tablist">
-				<!-- panel 1 -->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab1" data-toggle="tab" role="tab">
-					<div id="headingOne" aria-controls="collapseOne" aria-expanded="true" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseOne" role="tab">
-						<h4 class="panel-title">Emerson Marketing Group Inc.</h4>
-					</div>
-					</span>
-					<div id="collapseOne" aria-labelledby="headingOne" class="panel-collapse collapse in" role="tabpanel">
-						<div class="panel-body">
-							<!-- Tab content goes here -->Canada's foremost sales 
-							organization specializing in infant and toddler products. 
-							We service all market channels from mass merchant and 
-							department stores to pharmacies, supermarkets and independent 
-							special retailers.<br /><br />
-                             <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.emersonmarketinggroup.ca">Emerson Marketing Group</a>
-						</div>
-					</div>
-				</div>
-				<!-- End panel 1 -->
-				
-				<!--  panel 2 -->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab2" data-toggle="tab" role="tab">
-					<div id="headingTwo" aria-controls="collapseTwo" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo" role="tab">
-						<h4 class="panel-title">Star Wars Slot Machine</h4>
-					</div>
-					</span>
-					<div id="collapseTwo" aria-labelledby="headingTwo" class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<!-- tab content goes here -->This is a Star Wars base 
-							themed slot machine that I have created.<br />
-							Please Enjoy.<br />
-                            <br />
-                           <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/projects/four/index.html">Star Wars Slot Machine</a>
-
-							 </div>
-					</div>
-				</div>
-				<!-- End panel 2 -->
-				<!--Panel 3-->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab3" data-toggle="tab" role="tab">
-					<div id="headingThree" aria-controls="collapseThree" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" role="tab">
-						<h4 class="panel-title collapsed">Reaction Time</h4>
-					</div>
-					</span>
-					<div id="collapseThree" aria-labelledby="headingThree" class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<!-- Tab content goes here -->This is a game that I 
-							have created that will test your reaction time. (mobile 
-							friendly)<br />
-							Enjoy!<br /><br />
-                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/projects/one/index.html">Reaction Time</a>
-							 </div>
-					</div>
-				</div>
-				<!--End Panel 3-->
-				<!--Panel 4-->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab4" data-toggle="tab" role="tab">
-					<div id="headingFour" aria-controls="collapseFour" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseFour" role="tab">
-						<h4 class="panel-title collapsed">Destroyer Game</h4>
-					</div>
-					</span>
-					<div id="collapseFour" aria-labelledby="headingF" class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<!-- Tab content goes here -->Destroyer is a version 
-							of the classic galaxy wars game. You must stay alive 
-							till you complete the mission. <br />
-							Enjoy!<br /><br />
-							<i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://gilemerson.ca/projects/two/index.html">Destroyer</a>
+      <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                     <h2>Example Projects</h2>
+                <br/>        
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
                             </div>
-					</div>
-				</div>
-				<!--End Panel 4-->
-				
-				
-				<!--Panel 5-->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab5" data-toggle="tab" role="tab">
-					<div id="headingFive" aria-controls="collapseFive" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseFive" role="tab">
-						<h4 class="panel-title collapsed">Functional Login Website</h4>
-					</div>
-					</span>
-					<div id="collapseFive" aria-labelledby="headingFive" class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<!-- Tab content goes here -->I have created this website 
-							using php and mysql while also using some html &amp; css 
-							for the markup.<br />
-							Users have the ability to keep a log of their activities 
-							which are saved in a database. The user can also manipulate 
-							the database, change any of the content or add and new 
-							content. Please register and Enjoy!<br /><br />
-							<i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/Comp1006/lesson05/login.php">Functional Login Website</a>
-							 </div>
-					</div>
-				</div>
-				<!--End Panel 5-->
-				<!--Panel 6-->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab6" data-toggle="tab" role="tab">
-					<div id="headingSix" aria-controls="collapseSix" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseSix" role="tab">
-						<h4 class="panel-title collapsed">WordPress Example</h4>
-					</div>
-					</span>
-					<div id="collapseSix" aria-labelledby="headingSix" class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							Here I have vreated a simple WordPress templete to showcase the effects and designs WordPress has to offer. <br /><br />
-                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="https://gilemerson.wordpress.com/home/">WordPress Example</a>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                  <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                  <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                  <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projectspage/wordpresssite.png" class="img-responsive" alt="">
+                    </a>
+                </div>
 
-							</div>
-					</div>
-				</div>
-				<!--End Panel 6-->
-				
-				
-				<!--Panel 7-->
-				<div class="panel panel-default">
-					<!--wrap panel heading in span to trigger image change as well as collapse -->
-					<span aria-expanded="false" class="side-tab" data-target="#tab7" data-toggle="tab" role="tab">
-					<div id="headingSeven" aria-controls="collapseSeven" aria-expanded="false" class="panel-heading" data-parent="#accordion" data-toggle="collapse" href="#collapseSeven" role="tab">
-						<h4 class="panel-title collapsed">Wikipedia Review</h4>
-					</div>
-					</span>
-					<div id="collapseSeven" aria-labelledby="headingSeven" class="panel-collapse collapse" role="tabpanel">
-						<div class="panel-body">
-							<!-- Tab content goes here -->Built with AngularJS frontend 
-							and NodeJS backend. This application uses wikipedia 
-							API to find relevant articles depending on the search 
-							criteria.<br /><br />
-                            <i class="fa fa-hand-o-right about-char"></i><a class="link" href="http://www.gilemerson.ca/projects/nine/default.html">Wikipedia Viewer</a>
+            </div>
+        </div>
+    </section>   
+    
+    
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Emerson Marketing Group (EMG)</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/emg.png" class="img-responsive img-centered" alt="">
+                            <p>Canada's foremost sales organization specializing in infant and toddler products. We service all market channels from mass merchant and department stores to pharmacies, supermarkets and independent special retailers.
+                                <br/>
+                                <br/>
+                            <a href="http://www.emersonmarketinggroup.ca">Emerson Marketing Group</a> Official Website</p>
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gil Emerson Design Studio</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/gil-site-php.png" class="img-responsive img-centered" alt="">
+                            <p>Emerson Design Studio offers next generation web services. Creating impactful and engaging user websites, helping our clients build their own online brand presence, grow their business and connect with their clients
+                                
+                                <br/>
+                                <br/>
+                            <a href="http://www.gilemerson.ca">Gil Emerson Design Studio</a> Official Website</p>
+                           
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Destroyer</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/destroy.png" class="img-responsive img-centered" alt="">
+                            <p>Destroyer is a version of the classic galaxy wars game. You must stay alive till you complete the mission. 
+                                 <br/>   
+                                Enjoy!
+                                
+                                <br/>
+                                <br/>
+                            <a href="http://gilemerson.ca/projects/two/index.html">Destroyer</a> Official Game</p>
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Wiki Viewer</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/wiki.png" class="img-responsive img-centered" alt="">
+                            <p>Built with AngularJS frontend and NodeJS backend. This application uses wikipedia API to find relevant articles depending on the search criteria.
 
-						</div>
-					</div>
-				</div>
-				<!--End Panel 7-->
-			
-				
-		
-				</div>
-			<!-- / panel-group --></div>
-		<!-- /col-md-4 -->
-		<div class="col-md-8">
-			<!-- begin macbook pro mockup -->
-			<div class="md-macbook-pro md-glare">
-				<div class="md-lid">
-					<div class="md-camera">
-					</div>
-					<div class="md-screen">
-						<!-- content goes here -->
-						<div class="tab-featured-image">
-							<div class="tab-content">
-							
-								<div id="tab1" class="tab-pane  in active">
-									<img alt="tab1" class="img img-responsive" src="img/projectspage/EMGProjectPage.png">
-								</div>									
-								
-								<div id="tab2" class="tab-pane">
-									<img alt="tab2" class="img img-responsive" src="img/projectspage/StarWarsProjectPage.png">
-								</div>
-								
-								<div id="tab3" class="tab-pane">
-									<img alt="tab3" class="img img-responsive" src="img/projectspage/ReactionTimeProjectPage.png">
-								</div>
-								
-								<div id="tab4" class="tab-pane">
-									<img alt="tab4" class="img img-responsive" src="img/projectspage/DestroyerProjectPage.png">
-								</div>
-								
-								<div id="tab5" class="tab-pane ">
-									<img alt="tab5" class="img img-responsive" src="img/projectspage/loginwebsite.png">
-								</div>
-								
-								<div id="tab6" class="tab-pane ">
-									<img alt="tab6" class="img img-responsive" src="img/projectspage/wordpresssite.png"> 
-								</div>
-								
-								<div id="tab7" class="tab-pane ">
-									<img alt="tab7" class="img img-responsive" src="img/projectspage/wiki.png">
-								</div>
-														
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="md-base">
-				</div>
-			</div>
-			<!-- end macbook pro mockup 1--></div>
-		<!-- / .col-md-8 --></div>
-	<!--/ .row -->
-	<!-- end sidetab container -->
-	<!--End Main Page Content--></div>
+                               <br/>
+                                <br/>
+                            <a href="http://gilemerson.ca/projects/nine/default.html">Wiki Viewer</a> Official Application</p>                    
+                        
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Star Wars Slot Machine</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/starwars.png" class="img-responsive img-centered" alt="">
+                            <p>This is a Star Wars base themed slot machine that I have created.
+                                <br/>
+                                Please Enjoy.
+                                
+                                <br/>
+                                <br/>
+                            <a href="http://gilemerson.ca/projects/four/index.html">Star Wars</a> Slot Machine</p>        
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Personal WordPress</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/wordpress.png" class="img-responsive img-centered" alt="">
+                            <p>Here I have created a personal WordPress website to showcase my skills that I have developed while working with WordPress
+                                
+                                <br/>
+                                <br/>
+                            <a href="https://gilemerson.wordpress.com/home/">Personal WordPress</a> Site</p>        
+                            
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gil Emerson Design Studio</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/gil-site-php.png" class="img-responsive img-centered" alt="">
+                            <p>Emerson Design Studio offers next generation web services. Creating impactful and engaging user websites, helping our clients build their own online brand presence, grow their business and connect with their clients
+                                
+                                <br/>
+                                <br/>
+                            <a href="http://www.gilemerson.ca">Gil Emerson Design Studio</a> Official Website</p>
+                           
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gil Emerson Design Studio</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/gil-site-php.png" class="img-responsive img-centered" alt="">
+                            <p>Emerson Design Studio offers next generation web services. Creating impactful and engaging user websites, helping our clients build their own online brand presence, grow their business and connect with their clients
+                                
+                                <br/>
+                                <br/>
+                            <a href="http://www.gilemerson.ca">Gil Emerson Design Studio</a> Official Website</p>
+                           
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Gil Emerson Design Studio</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/gil-site-php.png" class="img-responsive img-centered" alt="">
+                            <p>Emerson Design Studio offers next generation web services. Creating impactful and engaging user websites, helping our clients build their own online brand presence, grow their business and connect with their clients
+                                
+                                <br/>
+                                <br/>
+                            <a href="http://www.gilemerson.ca">Gil Emerson Design Studio</a> Official Website</p>
+                           
+                           
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/><br/><br/>
+    <!--Contact Section Bottom Page-->
+    <div class="container" data-width="100%">
+        <div id="bottom-page">
+            <div id="contact-bottom">
+                <h4>Want to know the price for our services?<span> Get a quote here!</span></h4>
+                <div id="contact-bottom-button">
+                    <a class="link" href="contact.html">contact me here</a>
+                </div>
+                <!--End contact-bottom-button-->
+            </div>
+            <!--contact-bottom-->
+        </div>
+        <!--bottom-page-->
+    </div>
+    <!--container-->
+    <!--End Contact Section Bottom Page-->
+
+
+   
     
 
     <!-- Footer -->

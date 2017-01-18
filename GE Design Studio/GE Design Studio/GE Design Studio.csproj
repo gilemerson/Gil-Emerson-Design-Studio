@@ -66,7 +66,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\popup.css" />
     <Content Include="errorpage.html" />
     <Content Include="contact-form-thank-you.html" />
     <Content Include="help.html" />
@@ -83,6 +82,7 @@
     <Content Include="img\projectspage\StarWarsProjectPage.png" />
     <Content Include="img\projectspage\wiki.png" />
     <Content Include="img\projectspage\wordpresssite.png" />
+    <Content Include="img\shoreditch-responsive-design.png" />
     <Content Include="packages.config" />
     <Content Include="projects.html" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
